@@ -21,7 +21,7 @@ mkdir ~/bludit
 docker run --name bludit \
     -p 8000:80 \
     -v ~/bludit:/usr/share/nginx/html/bl-content \
-    -d bludit/docker:latest
+    -d rosenkreuzer233/bludit-re
 ```
 
 To get access visit with your browser http://localhost:8000
